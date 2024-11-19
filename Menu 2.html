@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Secondaire - Style Jaune</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8e1; /* Fond jaune clair */
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    /* Header */
+    .header {
+      background-color: #ffd600; /* Jaune vif */
+      color: white;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .header h1 {
+      font-size: 24px;
+      margin: 5px 0;
+    }
+
+    /* Main Section */
+    .main-secondary {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      width: 80%;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Buttons */
+    .menu-btn, .return-btn {
+      padding: 12px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: #ffc107; /* Jaune doré */
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .menu-btn:hover, .return-btn:hover {
+      background-color: #ffb300; /* Jaune plus foncé */
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- En-tête -->
+    <header class="header">
+      <h1>GROUPE N°8</h1>
+      <h1><p>Touko Tony</p></h1>
+    </header>
+
+    <!-- Section principale -->
+    <div class="main-secondary">
+      <button class="menu-btn">Menu 2</button>
+      <a href="index.html" class="return-btn">Retour page principale</a>
+    </div>
+  </div>
+</body>
+</html>
